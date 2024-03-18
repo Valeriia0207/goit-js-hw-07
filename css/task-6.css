@@ -1,0 +1,45 @@
+#controls {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+input {
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  outline: none;
+  padding: 8px 58px 8px 58px;
+}
+button[data-create] {
+  width: 120px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  border: 1px solid #4e75ff;
+  border-radius: 8px;
+}
+
+button[data-create]:hover {
+  background-color: #6c8cff;
+}
+
+button[data-destroy] {
+    width: 120px;
+    height: 40px;
+    background-color: #FF4E4E;
+    color: #ffffff;
+    border: 1px solid #FF4E4E;
+    border-radius: 8px;
+}
+
+button[data-destroy]:hover {
+    background-color: #FF7070;
+}
+
+#boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
